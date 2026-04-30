@@ -30,14 +30,6 @@ html {
   --color-white: #f3f3f3;
   --color-gray: #dfdfdf;
   --color-tertiary: #e06b41;
-
-  /* Media Queries Breakpoints */
-  --bp-phone-port: 36em;
-  --bp-phone-land: 62em;
-  --bp-tab-port: 48em;
-  --bp-tab-land: 62em;
-  --bp-desktop-small: 75em;
-  --bp-desktop-large: 112.5em;
 }
 
 body {
@@ -56,23 +48,24 @@ h6 {
 /* ==================== */
 /* Media Queries */
 /* ==================== */
-@media only screen and (max-width: var(--bp-tab-port)) {
+
+@media only screen and (max-width: 112.5em) {
   html {
-    font-size: 50%;
+    font-size: 100%;
   }
 }
-@media only screen and (max-width: var(--bp-tab-land)) {
-  html {
-    font-size: 56.25%;
-  }
-}
-@media only screen and (max-width: var(--bp-desktop-small)) {
+@media only screen and (max-width: 75em) {
   html {
     font-size: 75%;
   }
 }
-@media only screen and (max-width: var(--bp-desktop-large)) {
+@media only screen and (max-width: 62em) {
   html {
-    font-size: 100%;
+    font-size: 56.25%;
+  }
+}
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 50%;
   }
 }
