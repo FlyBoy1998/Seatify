@@ -1,0 +1,64 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem;
+  border-radius: 2rem;
+  background-color: var(--color-secondary-2);
+}
+
+.signupNav,
+.mainNav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.signupNav a:link,
+.mainNav a:link,
+.signupNav a:visited,
+.mainNav a:visited {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.signupNav a:hover,
+.mainNav a:hover {
+  color: var(--color-primary-1);
+}
+
+.signupNav a,
+.mainNav a {
+  transition: color 0.2s linear;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.logo a:link,
+.logo a:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.logo i {
+  color: var(--color-tertiary);
+  font-size: 0.8rem;
+}
+
+.signupNav a {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.signupNav i {
+  color: var(--color-primary-1);
+  font-size: 0.8rem;
+}
