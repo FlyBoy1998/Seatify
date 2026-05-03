@@ -6,12 +6,10 @@ export default function MainNavigation() {
   return (
     <header>
       <nav className={styles.navContainer}>
-        <h1 className={styles.logo}>
-          <Link to="/">
-            <span>Seatify</span>
-            <i className="fa-solid fa-circle"></i>
-          </Link>
-        </h1>
+        <Link to="/" className={styles.logo}>
+          <span>Seatify</span>
+          <i className="fa-solid fa-circle"></i>
+        </Link>
         <ul className={styles.mainNav}>
           <li>
             <NavLink>Playing now</NavLink>
